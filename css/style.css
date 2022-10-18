@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins',sans-serif;
+   
+}
+
+.article{
+    background-image: url("../images/bg-main-desktop.png");
+    background-size: 483px 100vw;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+
+}
+.flex-item{
+    
+    flex: 1;
+    
+}
+.flex-right{
+    min-width: 460px;
+
+}
+
+.seccion-tarjetas{
+    text-align: center;
+    position: relative;
+    
+}
+.seccion-form{
+    text-align: left;
+}
+
+
+
+
+/*===================== FLEX =============================*/
+
+
+
+
+
+/*===================== tarjetas =============================*/
+
+.tarjeta1{
+    background-image: url("../images/bg-card-front.png");
+    position: relative;
+    color: #fff;
+    width:447px;
+    height: 245PX;
+    margin-left: 150px;
+}
+.tarjeta2{
+    background-image: url("../images/bg-card-back.png");
+    width:447px;
+    height: 245px;
+    margin-left: 250px;
+    margin-top: 25px;
+    position: relative;
+
+}
+
+.logo-card{
+    text-align: left;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.numberCard{
+    font-size: 30px;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.nameCard-fecha{
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+.cvc{
+    position: absolute;
+    top: 110px;
+    left: 350px;
+ 
+}
+
+/*===================== formulario=============================*/
+
+
+form{
+    font-size: 20px;
+    width: 400px;
+    margin-left: 20px;
+    
+}
+input{
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    margin: 20px 0 20px 0;
+}
+
+input[type="month"]{
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+input[id="cvc"]{
+    margin-left: 10px;
+    width: 50px;
+}
+input[type="button"]{
+    color: #fff;
+    background-color: #220930;
+}
+input[type="submit"]{
+    color: #fff;
+    background-color: #220930;
+}
+
+input[type="button"]:active{
+    background-color: #40125a;
+    
+}
+input[type="submit"]:active{
+    background-color: #40125a;
+    
+}
+
+li{
+   display: inline-block; 
+}
+
+
+
+/*===================== modal gracias=============================*/
+
+
+.gracias-container{
+    display: none;
+}
+
+.gracias-container-vista{
+    
+    text-align: center;
+    line-height: 50px;
+    width: 420px;
+    height: 366.13px;
+    
+}
+.gracias-container-vista input[type="button"]{
+    width:50%;
+}
+
+
+
+

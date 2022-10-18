@@ -1,0 +1,64 @@
+@media (max-width: 1157px){
+    .article{
+        background-image: url("../images/bg-main-mobile.png");
+        background-size: 100vw 50vh;
+        width: 100vw;
+        height: 50vh;
+        position: relative;
+      
+    }
+    .seccion-tarjetas{
+        
+        width: 50%;
+        padding-bottom: 200px;
+    }
+    .tarjeta1{
+        background-size: contain;
+        background-repeat: no-repeat;
+       position: absolute;
+       width:357.6px;
+       height: 306.25px;
+        z-index: 100;
+        margin: 0;
+        padding: 0;
+        top: 150px;
+        bottom: 0;
+        left: 0;
+    }
+    .numberCard{
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .tarjeta2{
+        background-size: contain;
+        position: absolute;
+        background-repeat: no-repeat;
+        width:357.6px;
+       height: 306.25px;
+        
+        margin: 0;
+        padding: 0;
+
+        top: 50px;
+        right: 0;
+    }
+    .cvc{
+        position: absolute;
+        top: 100px;
+        left: 300px;
+     
+    }
+    .seccion-form{
+        margin: 0;
+    }
+    form{
+        margin: 0;
+        width: 100vw;
+    }
+    .flex-right{
+        margin: 0;
+        width: 100vw;
+    }
+
+}

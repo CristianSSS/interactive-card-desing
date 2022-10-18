@@ -1,0 +1,29 @@
+input[id="cardName"]:invalid{
+    border: 1px solid #ff0000;
+}
+input[id="cardNumber"]:invalid{
+    border: 1px solid #ff0000;
+}
+input[id="cvc"]:invalid{
+    border: 1px solid #ff0000;
+}
+
+
+
+
+
+
+
+
+li{
+    color: #ff0000;
+    font-size: 15px;
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+input:focus:invalid{
+    outline: 1px solid #ff0000;
+    
+}
